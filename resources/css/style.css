@@ -1,0 +1,39 @@
+/* HEADER */
+
+.header{
+  background-color: black;
+  color: white;
+  border: 1px solid yellow;*/
+}
+
+.header img{
+
+}
+
+/* BANNER */
+
+.banner img{
+  width: 100%;
+}
+
+/* NAVIGATION */
+
+.navi{
+  display: inline-block;
+  background-color: red;
+  border: 1px solid green;*/
+}
+
+/* ITEMS */
+
+.items{
+  background-color: white;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: black;
+  color: white;
+}
