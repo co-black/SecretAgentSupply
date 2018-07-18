@@ -27,7 +27,7 @@ body {
   padding: .66rem 0 .66rem 0.5rem;
 }
 
-.container img{
+.header img{
   height: 1.5rem;
   padding-right: 1rem;
 }
@@ -77,12 +77,49 @@ body {
   color: white;
 }
 
-/* ITEMS */
+/* ITEMS & OPERATION */
 
-.items{
-  background-color: white;
+.items, .operation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
 
+.item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.item-pen, .item-watch, .item-glasses {
+  width: 30%;
+}
+
+.item-image img{
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.info{
+  width: 35%;
+}
+
+.info .title{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
 
 /* FOOTER */
 
