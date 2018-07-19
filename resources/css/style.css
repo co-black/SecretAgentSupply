@@ -7,6 +7,10 @@ body {
   line-height: 1.4;
 }
 
+a{
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -123,7 +127,9 @@ body {
 
 /* FOOTER */
 
-.footer {
+footer {
   background-color: black;
   color: white;
+  margin-top: 4rem;
+  padding: 5em 0;
 }
