@@ -39,7 +39,7 @@ a{
 /* BANNER */
 
 .banner{
-  background-image: url('/Users/conorblack/Documents/GitHub/SecretAgentSupply/resources/images/moto.jpeg');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
