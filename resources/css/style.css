@@ -66,6 +66,27 @@ a{
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 470px){
+  .banner{
+    height: 15rem;
+  }
+
+  .new {
+    width: 82%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .new h1 {
+    font-size: 1rem;
+  }
+
+  .new h4 {
+    font-size: 0.77rem;
+  }
+}
+
+
 /* NAVIGATION */
 
 .navi{
@@ -79,6 +100,25 @@ a{
 
 .navi li{
   color: white;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navi {
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+    text-align: center;
+    background-color: firebrick;
+    color: white;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
 }
 
 /* ITEMS & OPERATION */
@@ -125,6 +165,37 @@ a{
   padding: 1rem 2rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .item {
+    width: 47%;
+  }
+
+  .item-glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .item,
+  .operation {
+    flex-wrap: wrap;
+  }
+
+  .item-pen {
+    width: 90%;
+    margin: auto;
+  }
+
+  .item-watch {
+    display: none;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+}
+
 /* FOOTER */
 
 footer {
@@ -132,4 +203,10 @@ footer {
   color: white;
   margin-top: 4rem;
   padding: 5em 0;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }
